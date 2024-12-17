@@ -22,13 +22,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sreyas Giri"
+                android:text="Interstellar"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Angamaly"
+                android:text="Canada"
                 android:textSize="13sp"/>
         </LinearLayout>
     </LinearLayout>
