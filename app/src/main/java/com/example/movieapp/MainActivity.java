@@ -1,5 +1,6 @@
 package com.example.movieapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -29,6 +30,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 getUname=et1.getText().toString();
                 getPass=et2.getText().toString();
+                if(getUname.equals("creator")&&getPass.equals("12345"))
+                {
+                    Intent i=new Intent(getApplicationContext(), MenuActivity.class);
+                    startActivity(i);
+                }
             }
         });
     }

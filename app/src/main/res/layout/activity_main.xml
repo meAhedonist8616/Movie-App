@@ -27,6 +27,7 @@
         android:id="@+id/pass"
         android:layout_marginHorizontal="30dp"
         android:hint="Password"
+        android:inputType="textPassword"
         android:drawableLeft="@drawable/baseline_enhanced_encryption_24"
         android:textColorHint="#7f8c8d"
         android:layout_marginBottom="60dp"/>

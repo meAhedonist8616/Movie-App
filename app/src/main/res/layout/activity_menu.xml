@@ -1,0 +1,54 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcolour"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD MOVIE"
+        android:textSize="20sp"
+        android:id="@+id/addmovbut"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH MOVIE"
+        android:id="@+id/sermovbut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL MOVIES"
+        android:id="@+id/viewmovbut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXIT"
+        android:textSize="20sp"
+        android:id="@+id/exitbut"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
