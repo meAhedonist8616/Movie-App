@@ -3,13 +3,13 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#000000"
+    android:background="@drawable/bgcolour"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:background="@drawable/baseline_camera_outdoor_24"
-        android:layout_marginBottom="70dp"
+        android:layout_marginBottom="70dp"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
