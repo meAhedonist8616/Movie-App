@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="BACK TO MENU"
         android:textSize="20sp"
-        android:id="@+id/back1but"
+        android:id="@+id/back2but"
         android:textStyle="bold"
         android:layout_marginBottom="20dp"
         android:layout_marginHorizontal="55dp"
