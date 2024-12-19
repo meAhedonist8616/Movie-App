@@ -1,0 +1,51 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcolour"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Movie Name"
+        android:id="@+id/movnam"
+        android:textColorHint="#7f8c8d"
+        android:layout_marginBottom="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_marginHorizontal="30dp"
+        android:hint="Released Year"
+        android:id="@+id/relyear"
+        android:textColorHint="#7f8c8d"
+        android:layout_marginBottom="40dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:id="@+id/searchbut"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MENU"
+        android:textSize="20sp"
+        android:id="@+id/back1but"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="55dp"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
